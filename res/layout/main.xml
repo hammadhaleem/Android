@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/btnPanic"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/panicButton"
+        android:textSize="40sp" />  
+        
+    <Button 
+        android:id="@+id/btnAddContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/addContacts"
+        android:textSize="30sp" />
+    
+    <Button 
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/exit"
+        android:textSize="30sp" />
+        
+</LinearLayout>

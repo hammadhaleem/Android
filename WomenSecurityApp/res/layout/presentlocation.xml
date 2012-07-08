@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:state_enabled="true"
+        android:clickable="true"
+        android:apiKey="0psMIPLlN5rJGD7UsfXzRqI0lD2v_BBkCJNpJ3Q"
+        />
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/myzoom"
+  >
+        
+    </LinearLayout>
+    
+</LinearLayout>
